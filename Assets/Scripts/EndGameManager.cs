@@ -8,6 +8,7 @@ public class EndGameManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI PlayerScore;
     [SerializeField] private TextMeshProUGUI MasterScore;
+    LeaderboardManager leaderboardManager;
     private int playerScore;
     private int masterScore;
     private int starsCount;
@@ -23,8 +24,8 @@ public class EndGameManager : MonoBehaviour
 
         playerScore = PlayerPrefs.GetInt("PlayerScore", 0);
         masterScore = PlayerPrefs.GetInt("MasterScore", 0);
-        PlayerScore.text = playerScore.ToString();
-        //MasterScore.text = masterScore.ToString();
+        PlayerScore.text = playerScore.ToString();        
+        
     }
 
     // Update is called once per frame
@@ -48,10 +49,12 @@ public class EndGameManager : MonoBehaviour
     public void WinGame()
     {
         win.SetActive(true);
+       
     }
     public void LoseGame()
     {
         lose.SetActive(true);
+       
     }
     /*public void DrawGame()
     {

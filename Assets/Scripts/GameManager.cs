@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
+    
     [System.Serializable]
 
     public class DataBank
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     private int indexQuestions = 0;
     [SerializeField] private Color defaultButtonColor = Color.white;
+    [SerializeField] private LeaderboardManager leaderboardManager;
 
 
     public Button[] AnswerButtons;
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour
     private int masterScore;
     private int questionCount;
     private int starCount;
+    public LeaderboardManager leaderboard;
 
 
     public void Start()
@@ -142,7 +145,10 @@ public class GameManager : MonoBehaviour
         {
             starCount -= 4;
         }
+        leaderboardManager.SubmitScore(starCount);
         PlayerPrefs.SetInt("StarCount", starCount);
         PlayerPrefs.Save();
+        
+        
     }
 }

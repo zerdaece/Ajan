@@ -1744,6 +1744,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &995683801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995683803}
+  - component: {fileID: 995683802}
+  m_Layer: 0
+  m_Name: LeaderBoardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &995683802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995683801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f295bc6fac965fc42b93eb7c60b43a8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LeaderboardManager
+  leaderboardManager: {fileID: 995683802}
+--- !u!4 &995683803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995683801}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.60576, y: -0.13797, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1018789219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,14 +1952,14 @@ RectTransform:
   m_GameObject: {fileID: 1044890127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1235307, y: 1.1235307, z: 1.1235307}
+  m_LocalScale: {x: 0.98052776, y: 0.98052776, z: 0.98052776}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1175879283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30.3, y: 2.000053}
+  m_AnchoredPosition: {x: 29.6, y: 2.000053}
   m_SizeDelta: {x: 72.63, y: 48.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044890129
@@ -1937,7 +1982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5
+  m_text: 12
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2254,7 +2299,7 @@ RectTransform:
   m_GameObject: {fileID: 1175879282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2634902, y: 1.5030991, z: 1.7683518}
+  m_LocalScale: {x: 2.6636753, y: 1.768847, z: 2.0809965}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1931789418}
@@ -2264,8 +2309,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 259}
-  m_SizeDelta: {x: 65.26, y: 47.89}
+  m_AnchoredPosition: {x: 17.8, y: 258.47}
+  m_SizeDelta: {x: 77.6, y: 47.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175879284
 MonoBehaviour:
@@ -2509,14 +2554,14 @@ RectTransform:
   m_GameObject: {fileID: 1218112766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.87272, y: 0.87272, z: 0.87272}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1175879283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.4, y: 2.000053}
+  m_AnchoredPosition: {x: -32.3, y: 2.000053}
   m_SizeDelta: {x: 72.63, y: 48.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1387234616
@@ -2773,6 +2818,20 @@ MonoBehaviour:
     - "Yaylac\u0131k"
     - Starbucks
     qustions: Sahneden sonra genellikle gidilen yer neresidir?
+  - answerQuestion: "Yi\u011Fit"
+    FuorAnswer:
+    - "Yi\u011Fit"
+    - Cavidan
+    - Eren
+    - Atacan
+    qustions: "Hangisi hain bir ajand\u0131r?"
+  - answerQuestion: "O\u011Fuzhan"
+    FuorAnswer:
+    - "O\u011Fuzhan"
+    - Cavidan
+    - Atacan
+    - Eren
+    qustions: "Olur day\u0131, Yapar\u0131z day\u0131,He day\u0131?"
   - answerQuestion: "Dile doland\u0131"
     FuorAnswer:
     - "\u015Eov ad\u0131"
@@ -2780,20 +2839,28 @@ MonoBehaviour:
     - Gizlilik
     - "\u015Eapka tak\u0131yoz"
     qustions: Neden "Ajan" kelimesi?
-  - answerQuestion: "Yi\u011Fit"
+  - answerQuestion: Cliff Venue
     FuorAnswer:
-    - Cavidan
-    - Eren
-    - Atacan
-    - "Yi\u011Fit"
-    qustions: "Hangisi hain bir ajand\u0131r?"
-  - answerQuestion: "Bal\u0131k"
+    - RedRoxx
+    - Sahne
+    - Karga
+    - Cliff Venue
+    qustions: "Hangisi Ajanlar\u0131n sahne ald\u0131\u011F\u0131 mekanlardan de\u011Fildir?"
+  - answerQuestion: "Sevmedi\u011Fi bi\u015Fey mi var?"
     FuorAnswer:
-    - Tavuk
-    - Asperox
-    - Ahtopot
-    - "Bal\u0131k"
-    qustions: "Hangisi ajanlardan birinin takma ismi de\u011Fildir?"
+    - Lahmacun
+    - Burger
+    - Pizza
+    - "Sevmedi\u011Fi bi\u015Fey mi var?"
+    qustions: "Hangisi Yi\u011Fit'in sevdi\u011Fi bir yiyecek de\u011Fildir"
+  - answerQuestion: Zakkum
+    FuorAnswer:
+    - "G\xFCl\u015Fen"
+    - Murat Boz
+    - Zakkum
+    - "Serdar Orta\xE7"
+    qustions: "Ajanlar\u0131n muhtemelen hi\xE7 \xE7almayaca\u011F\u0131 sanat\xE7\u0131
+      hangisidir?"
   - answerQuestion: Pinhani
     FuorAnswer:
     - Redd
@@ -2801,7 +2868,37 @@ MonoBehaviour:
     - "Seksend\xF6rt"
     - Kaset
     qustions: "Ajanlar\u0131n en son birlikte gitti\u011Fi b\xFCy\xFCk konser hangisidir?"
+  - answerQuestion: "Bal\u0131k"
+    FuorAnswer:
+    - Tavuk
+    - Asperox
+    - Ahtopot
+    - "Bal\u0131k"
+    qustions: "Hangisi ajanlardan birinin takma ismi de\u011Fildir?"
+  - answerQuestion: Eren
+    FuorAnswer:
+    - Cavidan
+    - Atacan
+    - "O\u011Fuzhan"
+    - Eren
+    qustions: "Bu quizi haz\u0131rlayan ki\u015Fi hangi ajan\u0131n manitas\u0131d\u0131r?
+      (Zor soru)"
+  - answerQuestion: RedRoxx
+    FuorAnswer:
+    - Sahne
+    - 'Sherlock '
+    - Karga
+    - RedRoxx
+    qustions: "Ajanlar hangi mekanda Pazartesi ve Cuma g\xFCnleri sahne al\u0131yorlar?"
+  - answerQuestion: Cavidan
+    FuorAnswer:
+    - Eren
+    - Cavidan
+    - Atacan
+    - "O\u011Fuzhan"
+    qustions: "Hangi ajan evli, mutlu, \xE7ocukludur?"
   defaultButtonColor: {r: 0.58431375, g: 0.8156863, b: 0.79607844, a: 0.75686276}
+  leaderboardManager: {fileID: 995683802}
   AnswerButtons:
   - {fileID: 343885394}
   - {fileID: 508867661}
@@ -3207,14 +3304,14 @@ RectTransform:
   m_GameObject: {fileID: 1931789417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.87272, y: 0.87272, z: 0.87272}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1175879283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2}
+  m_AnchoredPosition: {x: -2.1, y: 2}
   m_SizeDelta: {x: 72.63, y: 48.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931789419
@@ -3324,3 +3421,4 @@ SceneRoots:
   - {fileID: 928288494}
   - {fileID: 1691154762}
   - {fileID: 1423719496}
+  - {fileID: 995683803}
